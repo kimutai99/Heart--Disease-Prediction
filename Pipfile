@@ -4,10 +4,12 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+heart-disease-presdiction = {file = ".", editable = true}
 pandas = "*"
 numpy = "*"
 flask = "*"
-heart-disease-presdiction = {file = ".", editable = true}
+scikit-learn = "*"
+xgboost = "*"
 
 [dev-packages]
 
