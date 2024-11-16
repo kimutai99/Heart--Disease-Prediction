@@ -23,8 +23,9 @@ del df_test['tenyearchd']
 del df_val['tenyearchd']
 
 # Training the model
+best_C = 10
 
-model=LogisticRegression(C=10,random_state=1)
+model=LogisticRegression(C=best_C, solver='liblinear', random_state=1)
 model.fit(df_train,y_train)
 
 ## Exporting the Trained model
