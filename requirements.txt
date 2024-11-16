@@ -1,6 +1,6 @@
 pandas 
 numpy 
-Flask
+flask
 scikit-learn
 xgboost
 # -e .
