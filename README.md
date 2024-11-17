@@ -24,34 +24,26 @@ Using machine learning algorithms, the model predicts the likelihood of heart di
 
 # Instructions to Run the Project
 1. Prerequisites
-Python 3.12.5 (or compatible version)
-Pipenv installed (pip install pipenv)
-Required libraries listed in requirements.txt.
+- Python 3.12.5 (or compatible version)
+- Pipenv installed (pip install pipenv)
+- Required libraries listed in requirements.txt.
 2. Clone the Repository
-bash
-Copy code
-git clone <repository-url>  
-cd <repository-folder>  
+- git clone <repository-url>  
+- cd <repository-folder>  
 3. Set Up the Virtual Environment with Pipenv
-bash
-Copy code
-pipenv install --dev  
-pipenv shell  
+- pipenv install --dev  
+- pipenv shell  
 4. Run the Project
 (a) Train the Model
-bash
-Copy code
 python train.py  
 (b) Test the Model
-bash
-Copy code
+
 python predict.py  
 (c) Run the API (Optional)
-bash
-Copy code
+
 python app.py  
 Access the API at http://127.0.0.1:8000.
 
 5. Explore Results
-Analysis and visualizations are in the notebooks/EDA/ folder.
-Performance metrics are saved in the results/Model_Training/ folder.
+- Analysis and visualizations are in the notebooks/EDA/.
+ - Performance metrics are saved in the results/Model_Training/.
