@@ -27,6 +27,7 @@ Glucose Levels
 Using machine learning algorithms, the model predicts the likelihood of heart disease, providing actionable insights to improve health outcomes.
 
 ## Instructions to Run the Projects
+
 1. Prerequisites
 . Python 3.12.5 (or compatible version)
 . A Python virtual environment setup (optional but recommended)
