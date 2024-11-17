@@ -1,7 +1,7 @@
-Description
+# Description
 This project aims to analyze the factors influencing the risk of heart disease using a dataset containing demographic, lifestyle, and medical information. By exploring these factors, we identify the most significant contributors to heart disease and develop a predictive model.
 
-Data Source
+# Data Source
 Dataset source: Framingham Heart Study Dataset
 The dataset consists of 16 columns and 4,240 rows.
 Features Evaluated:
@@ -22,7 +22,7 @@ Heart Rate
 Glucose Levels
 Using machine learning algorithms, the model predicts the likelihood of heart disease, providing actionable insights to improve health outcomes.
 
-Instructions to Run the Project
+# Instructions to Run the Project
 1. Prerequisites
 Python 3.12.5 (or compatible version)
 Pipenv installed (pip install pipenv)
