@@ -10,7 +10,9 @@ from sklearn.feature_extraction import DictVectorizer
 from src.exception import CustomException
 from src.logger import logging
 import os
-from src.utilis import saved_obj
+from src.utils import saved_obj, evaluate_models
+
+
 @dataclass
 class DataTransformationConfig:
     preprocessor_obj_file_path = os.path.join('artifacts', "preprocessor.pkl")

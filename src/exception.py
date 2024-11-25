@@ -1,12 +1,11 @@
 import sys
 from src.logger import logging
+import sys
+from src.logger import logging
 
 def get_error_message(error, error_detail: sys):
-    '''
-    This function generates an error message that includes the file name, line number, and the original error message.
-    '''
     try:
-        _, _, exc_tb = error_detail.exc_info()
+        _, _, exc_tb = error_detail
         file_name = exc_tb.tb_frame.f_code.co_filename
         line_number = exc_tb.tb_lineno
         error_message = f"Error occurred in script: [{file_name}], line: [{line_number}], message: [{str(error)}]"
@@ -17,9 +16,6 @@ def get_error_message(error, error_detail: sys):
 
 class CustomException(Exception):
     def __init__(self, error, error_detail: sys):
-        '''
-        Initialize the custom exception with the error message.
-        '''
         # Get the detailed error message using the get_error_message function
         error_message = get_error_message(error, error_detail)
         
